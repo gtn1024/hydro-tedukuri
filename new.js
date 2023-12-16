@@ -13,7 +13,7 @@ memory: 256MB
 `
 fs.writeFileSync(path.join(__dirname, `${count + 1}`, 'testdata', 'config.yaml'), testdataConfig);
 
-const problemConfig = `title:
+const problemConfig = `title: P${count + 1}
 tag:
 - 算法竞赛进阶指南
 pid: P${count + 1}
