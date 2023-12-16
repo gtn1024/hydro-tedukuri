@@ -1,0 +1,5 @@
+type: default
+checker_type: testlib
+checker: checker.cc
+time: 1000ms
+memory: 256MB
