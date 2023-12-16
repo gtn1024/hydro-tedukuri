@@ -1,0 +1,8 @@
+<h2>Problem Description</h2>   Today the company has m tasks to complete. The ith task need xi minutes to complete. Meanwhile, this task has a difficulty level yi. The machine whose level below this task’s level yi cannot complete this task. If the company completes this task, they will get (500*xi+2*yi) dollars.<br>   The company has n machines. Each machine has a maximum working time and a level. If the time for the task is more than the maximum working time of the machine, the machine can not complete this task. Each machine can only complete a task one day. Each task can only be completed by one machine.<br>   The company hopes to maximize the number of the tasks which they can complete today. If there are multiple solutions, they hopes to make the money maximum.<h2>Input</h2>   The input contains several test cases. <br>   The first line contains two integers N and M. N is the number of the machines.M is the number of tasks(1 &lt; =N &lt;= 100000,1&lt;=M&lt;=100000).<br>   The following N lines each contains two integers xi(0&lt;xi&lt;1440),yi(0=&lt;yi&lt;=100).xi is the maximum time the machine can work.yi is the level of the machine.<br>   The following M lines each contains two integers xi(0&lt;xi&lt;1440),yi(0=&lt;yi&lt;=100).xi is the time we need to complete the task.yi is the level of the task.<h2>Output</h2>   For each test case, output two integers, the maximum number of the tasks which the company can complete today and the money they will get.
+<pre><code class="language-input1"><pre><div style="font-family:Courier New,Courier,monospace;">1 2
+100 3
+100 2
+100 1</div></pre></code></pre>
+
+<pre><code class="language-output1"><pre><div style="font-family:Courier New,Courier,monospace;">1 50004</div></pre></code></pre>
+

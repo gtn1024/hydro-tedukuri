@@ -1,0 +1,25 @@
+<h2>Description</h2><p><div><p>After successive failures in the battles against the Union, the Empire retreated to its last stronghold. Depending on its powerful defense system, the Empire repelled the six waves of Union's attack. After several sleepless nights of thinking, Arthur, General of the Union, noticed that the only weakness of the defense system was its energy supply. The system was charged by <i>N</i> nuclear power stations and breaking down any of them would disable the system.</p><p>The general soon started a raid to the stations by <i>N</i> special agents who were paradroped into the stronghold. Unfortunately they failed to land at the expected positions due to the attack by the Empire Air Force. As an experienced general, Arthur soon realized that he needed to rearrange the plan. The first thing he wants to know now is that which agent is the nearest to any power station. Could you, the chief officer, help the general to calculate the minimum distance between an agent and a station? </p></div></p><h2>Input</h2><p><div><p>The first line is a integer <i>T</i> representing the number of test cases.<br>Each test case begins with an integer <i>N</i> (1 ≤ <i>N</i> ≤ 100000).<br>The next <i>N</i> lines describe the positions of the stations. Each line consists of two integers <i>X</i> (0 ≤ <i>X</i> ≤ 1000000000) and <i>Y</i> (0 ≤ <i>Y</i> ≤ 1000000000) indicating the positions of the station.<br>The next following <i>N</i> lines describe the positions of the agents. Each line consists of two integers <i>X</i> (0 ≤ <i>X</i> ≤ 1000000000) and <i>Y</i> (0 ≤ <i>Y</i> ≤ 1000000000) indicating the positions of the agent. 　</p></div></p><h2>Output</h2><p><p>For each test case output the minimum distance with precision of three decimal placed in a separate line.</p></p>
+
+<pre><code class="language-input1">2
+4
+0 0
+0 1
+1 0
+1 1
+2 2
+2 3
+3 2
+3 3
+4
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0</code></pre>
+
+<pre><code class="language-output1">1.414
+0.000</code></pre>
+
