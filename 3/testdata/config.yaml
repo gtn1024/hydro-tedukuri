@@ -1,31 +1,3 @@
 type: default
 time: 1000ms
 memory: 64MB
-
-langs:
-  - bash
-  - c
-  - cc
-  - cc.cc98
-  - cc.cc98o2
-  - cc.cc11
-  - cc.cc11o2
-  - cc.cc14
-  - cc.cc14o2
-  - cc.cc17
-  - cc.cc17o2
-  - pas
-  - java
-  - kt
-  - kt.jvm
-  - py
-  - py.py2
-  - py.py3
-  - py.pypy3
-  - php
-  - rs
-  - hs
-  - js
-  - go
-  - rb
-  - cs
