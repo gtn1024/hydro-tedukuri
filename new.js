@@ -23,21 +23,27 @@ fs.writeFileSync(path.join(__dirname, `${count + 1}`, 'problem.yaml'), problemCo
 const statement = `## 题目描述
 
 
+
 ## 输入格式
+
 
 
 ## 输出格式
 
 
+
 ## 数据范围
+
 
 
 ## 样例
 
 \`\`\`input1
+
 \`\`\`
 
 \`\`\`output1
+
 \`\`\`
 
 `
