@@ -1,0 +1,28 @@
+type: default
+time: 1000ms
+memory: 256MB
+subtasks:
+  - score: 100
+    type: sum
+    cases:
+      - input: PARITY.I1
+        output: PARITY.O1
+      - input: PARITY.I2
+        output: PARITY.O2
+      - input: PARITY.I3
+        output: PARITY.O3
+      - input: PARITY.I4
+        output: PARITY.O4
+      - input: PARITY.I5
+        output: PARITY.O5
+      - input: PARITY.I6
+        output: PARITY.O6
+      - input: PARITY.I7
+        output: PARITY.O7
+      - input: PARITY.I8
+        output: PARITY.O8
+      - input: PARITY.I9
+        output: PARITY.O9
+      - input: PARITY.I10
+        output: PARITY.O10
+
